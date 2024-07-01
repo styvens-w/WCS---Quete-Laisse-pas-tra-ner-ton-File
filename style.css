@@ -1,0 +1,69 @@
+body {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive; /* Police de style cartoon */
+    background-color: #f7d708; /* Couleur de fond jaune */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #0b4870; /* Bleu foncé */
+}
+
+/* Styles du formulaire */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin: 20px auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+
+    & input {
+        max-width: 250px;
+    }
+}
+
+input[type="text"], input[type="number"], input[type="file"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0b4870; /* Bleu foncé */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #333;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #094a6a;
+}
+
+/* Styles des images et des informations de profil */
+img {
+    max-width: 200px;
+    height: auto;
+    border: 5px solid #fff; /* Bordure blanche */
+    box-shadow: 0 0 10px #333; /* Ombre portée pour un effet 3D */
+}
+
+.profile-info {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 0 0 20px #666;
+}
